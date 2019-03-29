@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Useless Blog</title>
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/blog.css" rel="stylesheet">
+</head>
+<body>
+<div class="heading">
+	<div class="transparent-nav">
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="menu" data-toggle="dropdown"
+					aria-expanded="true"> Menu <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="menu" id="menulists">
+				<li role="presentation"><a href="#" role="menuitem"
+										   tabindex="-1" onclick="no_twitter()"><img src="images/twitter.png" alt=""
+																					 class="menu-icon">트위터</a>
+				<li role="presentation"><a href="#" role="menuitem"
+										   tabindex="-1" onclick="no_facebook()"><img src="images/facebook.png" alt=""
+																					  class="menu-icon">페이스북</a>
+				<li role="presentation"><a role="menuitem" tabindex="-1"
+										   href="https://github.com/Del-Los-Leones"><img src="images/github.png"
+																						 alt="" class="menu-icon">GitHub</a>
+				<li role="presentation"><a role="menuitem" tabindex="-1"
+										   href="https://t.me/delrellonomicon"><img src="images/telegram.png"
+																					alt=""
+																					class="menu-icon">Telegram</a>
+				</li>
+				<li role="presentation" class="divider"></li>
+				<li role="presentation"><a href="mailto:dellosleones@pusan.ac.kr" role="menuitem"
+										   tabindex="-1"><img src="images/email.png" alt="" class="menu-icon">이메일
+					보내기</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<h1 class="heading-text">Useless BLOG</h1>
+</div>
+<div class="intro-content">
+	<div class="container-fluid">
+		<h1 class="intro-title">DEL LOS LEONES(이세형)</h1>
+		<hr class="divider">
+		<img class="intro-image" src="images/pnu.jpg" id="pnuimage">
+		<p class="intro-paragraph">부산대학교에 재학 중인 학생입니다.</p>
+		<p class="intro-paragraph" style="margin-top: 15px !important;color:#0085de;font-size:20px;">#자연계열, #19학번</p>
+	</div>
+</div>
+<div class="intro-content" style="background-color:#eff0f2;">
+	<div class="container-fluid">
+		<h1 class="intro-title">Developments</h1>
+		<hr class="divider">
+		<p class="intro-paragraph" style="font-size: 20px;margin-bottom: 30px;">뭔가 완성된 걸 만들기에는 실력이 턱없이 부족합니다. 이 웹사이트도
+			수많은 연습들 중 하나일
+			뿐입니다.</p>
+		<div class="row">
+			<div class="col-lg-3 col-md-4 col-sm-6 dev-content">
+				<img src="images/php.png" class="dev-image">
+				<div class="caption">
+					<h3><b>PocketMine-MP 플러그인, 웹 백엔드</b></h3>
+					<p class="dev-caption">PHP는 내가 살면서 배운 언어들 중 중국어 다음으로 별로인 언어였던 것 같다.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 dev-content">
+				<img src="images/nodejs.png" class="dev-image" style="margin-top: 41px;margin-bottom: 41px;">
+				<div class="caption">
+					<h3><b>Telegram 채팅봇, Discord 채팅봇 등</b></h3>
+					<p class="dev-caption">이벤트 핸들링 방식이 예전에 마인크래프트 플러그인 만드는 기분이라 한번 해 본 거다.<br>조금밖에 안 해봤다.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 dev-content">
+				<img src="images/java.png" class="dev-image" style="height: 210px;width: 114px;">
+				<div class="caption">
+					<h3><b>Nukkit 플러그인</b></h3>
+					<p class="dev-caption">한때 MCBE 서버 소프트웨어로 각광받았던 Nukkit의 플러그인을 Java언어로 작성한 적이 있다.<br>이것 또한 조금밖에 안 해봤다.
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 dev-content">
+				<img src="images/html5.png" class="dev-image" style="height: 210px;">
+				<div class="caption">
+					<h3><b>웹 프론트엔드</b></h3>
+					<p class="dev-caption">지금 하는 짓이다. 이 사이트를 보면 알겠지만 레이아웃만 겨우 짤 수 있을 수준이다. 이거 만드는데도 수 천년은 걸린것 같다.<br>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="intro-content">
+	<div class="container-fluid">
+		<h1 class="intro-title">ETC (TMI)</h1>
+		<hr class="divider" style="margin-bottom: 20px;">
+		<div class="panel panel-default">
+			<img class="intro-image" src="images/piano.jpg" style="width: 60%;">
+			<h2 class="tmi-title">피아노 빼면 시체입니다</h2>
+			<hr class="divider">
+			<p class="intro-paragraph-small">아마도 제 인생에 있어 그나마 가장 열심히 했던게 피아노가 아닐까 싶습니다.<br>유치원생 때부터 중학교 3학년까지 클래식을 배우다가
+				고등학교의 미친 하루 일과와 재수생 생활 때문에 약 4년간 접어두게 되었습니다.<br><br>대학생이 된 지금은 예전 실력으로 돌아가기 위해 노력 중입니다.
+				<del style="color: #5e5e5e">말이 쉽지</del>
+				<br>가끔 Multiplayer Piano 웹사이트의 PPAP라는 방에서 놀고 있는 저를 보실 수 있습니다.
+			</p>
+			<button class="mpp-button" onclick="location.href='http://www.multiplayerpiano.com/PPAP';">Multiplayer Piano
+				(PPAP)
+			</button>
+		</div>
+		<div class="panel panel-default">
+			<img class="intro-image" src="images/minecraft.jpg" style="width: 40%;">
+			<h2 class="tmi-title">웬만한 게임은 다 합니다</h2>
+			<hr class="divider">
+			<p class="intro-paragraph-small">리그 오브 레전드, 오버워치, PUBG, 마인크래프트, 히오스, 메이플스토리, 로스트아크 등<br>유명한 게임이라면 거의 다 해 봤다고
+				해도 과언이 아닙니다.<br>물론 요즘은 거의 안 합니다.<br><br>티어는 하나같이 다 쓰레기입니다. <del style="color: #5e5e5e">롤 실버, 오버워치 플레티넘, 배그 골드...</del>
+			</p>
+		</div>
+		<div class="panel panel-default">
+			<img class="intro-image" src="images/piano.jpg" style="width: 60%;">
+			<h2 class="tmi-title">피아노 빼면 시체입니다</h2>
+			<hr class="divider">
+			<p class="intro-paragraph-small">아마도 제 인생에 있어 그나마 가장 열심히 했던게 피아노가 아닐까 싶습니다.<br>유치원생 때부터 중학교 3학년까지 클래식을 배우다가
+				고등학교의 미친 하루 일과와 재수생 생활 때문에 약 4년간 접어두게 되었습니다.<br><br>대학생이 된 지금은 예전 실력으로 돌아가기 위해 노력 중입니다.
+				<del style="color: #5e5e5e">말이 쉽지</del><br>가끔 Multiplayer Piano 웹사이트의 PPAP라는 방에서 놀고 있는 저를 보실 수 있습니다.
+			</p>
+			<button class="mpp-button" onclick="location.href='http://www.multiplayerpiano.com/PPAP';">Multiplayer Piano (PPAP)</button>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container footer">
+		<p class="copyright-text">Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2019, 이세형</p>
+	</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>
